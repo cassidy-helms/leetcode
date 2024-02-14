@@ -1,5 +1,9 @@
 package com.leetcode.merge_sorted_array;
 
+/*
+ * Practice Problem 88: Merge Sorted Array
+ * Url: https://leetcode.com/problems/merge-sorted-array/
+ */
 public class MergeSortedArray 
 {
     public static void main( String[] args )

@@ -1,5 +1,9 @@
 package com.leetcode.remove_element;
 
+/*
+ * Practice Problem 27: Remove Element
+ * Url: https://leetcode.com/problems/remove-element/
+ */
 public class RemoveElement {
     public static void main(String[] args) {
         RemoveElement app = new RemoveElement();
