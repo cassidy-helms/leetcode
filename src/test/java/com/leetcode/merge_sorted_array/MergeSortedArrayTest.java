@@ -33,7 +33,7 @@ import org.junit.runners.Parameterized;
     }
 
     @Parameterized.Parameters
-    public static Collection arrays() {
+    public static Collection<Object[]> arrays() {
         return Arrays.asList(new Object[][] {
             {new int[] {1, 2, 3, 0, 0, 0}, 3, new int[] {2, 5, 6}, 3, new int[] {1, 2, 2, 3, 5, 6}},
             {new int[] {1}, 1, new int[] {}, 0, new int[] {1}},
