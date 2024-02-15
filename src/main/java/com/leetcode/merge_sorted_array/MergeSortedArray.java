@@ -19,6 +19,8 @@ public class MergeSortedArray
         }
     }
 
+    // not my solution - commenting to understand the logic
+    // Solution Source - https://leetcode.com/problems/merge-sorted-array/solutions/3436053/beats-100-best-c-java-python-and-javascript-solution-two-pointer-stl
     // assumes nums1 and nums2 are sorted
     public int[] merge(int[] nums1, int m, int[] nums2, int n) {
         // location of max value in nums1
