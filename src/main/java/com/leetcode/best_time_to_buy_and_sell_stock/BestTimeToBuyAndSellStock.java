@@ -5,10 +5,16 @@ package com.leetcode.best_time_to_buy_and_sell_stock;
  * URL: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
  */
 public class BestTimeToBuyAndSellStock {
+
     public static void main(String[] args) {
-        BestTimeToBuyAndSellStock bestTimeToBuyAndSellStock = new BestTimeToBuyAndSellStock();
-        int[] prices = {7, 1, 5, 3, 6, 4};
-        System.out.println(bestTimeToBuyAndSellStock.maxProfit(prices));
+        for(int i = 0; i < 10; i=i++) {
+            i+=1;
+            System.out.println("Hello World");
+        }
+    }
+    
+    static Exception print(int i) {
+        return new Exception();
     }
 
     // my solution
